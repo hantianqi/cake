@@ -1,0 +1,130 @@
+section,
+section #dg>div:first-child,
+section #dg>div>ul,
+section #dg>div>ul li,
+section #bql>div:first-child,
+section #bql>div>ul,
+section #bql>div>ul li,
+section #py>div:first-child,
+section #py>div>ul,
+section #py>div>ul li,
+section #cwdg>div:first-child,
+section #cwdg>div>ul,
+section #cwdg>div>ul li,
+section #lp>div:first-child,
+section #lp>div>ul,
+section #lp>div>ul li,
+section #mb>div:first-child,
+section #mb>div>ul,
+section #mb>div>ul li,
+section #jj>div:first-child,
+section #jj>div>ul,
+section #jj>div>ul li{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+section #dg>div>ul,
+section #bql>div>ul,
+section #py>div>ul,
+section #cwdg>div>ul,
+section #lp>div>ul,
+section #mb>div>ul,
+section #jj>div>ul{
+    justify-content: space-between;
+}
+section a,section span,section p,section li{
+    color:#684029;
+    font-size:13px;
+}
+section a img{
+    width: 228px;
+    height: 246px;
+}
+section a:hover,
+section a>span:hover{
+    color: #C79784;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+#fl div span:first-child{
+    color:#9B9B9B;
+}
+section #fl{
+    width:1200px;
+    border-top:1px solid #f2f2f2;
+    border-bottom:1px solid #f2f2f2;
+    margin-top:100px;
+}
+section #fl div{
+    margin:20px 0;
+}
+section #fl span{
+    margin:0 10px;
+}
+section #dg,
+section #bql,
+section #py,
+section #cwdg,
+section #lp,
+section #mb,
+section #jj{
+    text-align: center;
+    margin-bottom:50px;
+}
+section div>h2{
+    border-left:2px solid #684029;
+    margin:40px 0;
+    font-size: 20px;
+    padding:3px 10px;
+}
+section div>h2>span{
+    display: block;
+}
+section div.div_margin{
+    margin-bottom:40px;
+}
+section div.div_width{
+    width:230px;
+}
+section div ul li div>div{
+    margin-top:5px;
+}
+section a.a_border{
+    border: 1px solid #D5BFA7;
+    border-radius: 100px;
+    padding: 0 6px 0 8px;
+    color: #D5BFA7;
+    margin: 8px 3px;
+}
+section img.img1{
+     width:20px;
+     height:20px;
+     margin:5px 2px -5px;
+ }
+section div.label{
+    width: 65px;
+    height: 23px;
+    position: relative;
+    right:220px;
+    top:15px;
+}
+section div.label img{
+    width: 100%;
+}
+section ul li.li_mar{
+    margin:0 30px;
+}
+section a.pro-floridian{
+    width:300px;
+    height: 310px;
+    background: rgba(255,255,255,0.65);
+    position: absolute;
+}
+section a.pro-floridian>span{
+    display:block;
+    margin-top:150px;
+    margin-right:35px;
+}

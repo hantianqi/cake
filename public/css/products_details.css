@@ -1,0 +1,153 @@
+section~div{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+section,section div{
+    display:block;
+}
+section,section div,section h1,section span,section li,section a{
+    color:#684029;
+}
+section div~div,section div.d_flex{
+    display:flex;
+    justify-content:center;
+    margin-bottom:20px;
+}
+section div>div>ul.ul_margin{
+    margin:350px 0 0 20px;
+}
+section div>div>ul>li>img.img_px{
+    width:88px;
+    height:48px;
+    margin-bottom:10px;
+}
+section div.d_justify{
+    display:block;
+    padding-left:20%;
+}
+section h1{
+    margin-bottom:40px;
+}
+section div a.a_color,
+section div.d_justify>div.d1_justify>ul>li.li_color,
+section div.d_justify>div.d1_justify>ul>li.li_color>span.span_font{
+    color:#D5BFA7;
+}
+section div a.a_color{
+    margin-right:20px;
+}
+section div>img.img_px{
+    width:50px;
+    height:50px;
+}
+section div>img.img_px+span,
+section div.d_padding+ul>li>span{
+    display: inline-block;
+    padding-bottom:40px;
+    vertical-align: middle;
+}
+section div.d_padding,
+section div.d_padding+ul>li{
+    justify-content: flex-start;
+    width:484px;
+    font-size:15px;
+}
+section div.d_padding+ul>li>span{
+    margin-bottom:-20px;
+}
+section div.d_justify>div.d1_justify,div.d_display,hr{
+    position:relative;
+}
+section div.d_justify>div.d1_justify{
+     bottom:370px;
+     left:20px;
+     width:1500px;
+ }
+section div.d_display{
+    bottom:380px;
+    padding-right:70px;
+}
+section div.d_justify>div.d1_justify>img{
+    width: 300px;
+    height: 170px;
+}
+section div.d_justify>div.d1_justify>ul>li{
+    margin-left:30px;
+}
+section div.d_justify>div.d1_justify>ul>li,
+section div.d_justify>div.d1_justify>ul>li>span,
+section div.d_display>ul>li.li_float,
+section div.d_display>span{
+    font-size:12px;
+}
+section div.d_justify>div.d1_justify>ul>li>span{
+    display: inline-block;
+    padding-bottom:15px;
+    vertical-align: middle;
+}
+section div.d_justify>div.d1_justify>ul>li.li_color>span.span_font{
+    font-size:30px;
+}
+section div.d_display>span{
+    padding-top:5px;
+}
+section div.d_display>ul>li.li_float{
+    float:left;
+    border: 1px solid #e7e0dd;
+    margin-left:20px;
+    padding:5px 15px;
+}
+section div.d1_display{
+    padding-right:110px;
+}
+section div.d1_display>button{
+    margin-left:20px;
+    width: 167px;
+    height: 30px;
+    font-size:13px;
+    border:0;
+}
+section div.d1_display>button.btn1{
+    background:#F4F4F4;
+    color:#7A5844;
+}
+section div.d1_display>button.btn2{
+    background:#684029;
+    color:#fff;
+}
+section hr{
+    bottom:300px;
+    width:78%;
+    right:190px;
+    color:#D8D8D8;
+}
+section>div.d1_flex{
+    margin-top:-300px;
+    flex-wrap:wrap;
+}
+section div.d2>ul{
+     display:flex;
+ }
+section div.d2{
+    justify-content:center;
+    border:1px solid #E1E1E1;
+}
+section div.d2>h2{
+    background:#FBFBFB;
+    font-size: 14px;
+    line-height: 40px;
+    padding-left: 18px;
+}
+section div.d2>ul>li{
+    margin:10px 60px;
+    padding-bottom:10px;
+}
+section div.d2>ul>li>a>h4,div.d2>ul>li>a>p{
+    text-align:center;
+}
+section div.d2>ul>li>a>img{
+    max-width: 180px;
+}
+
+

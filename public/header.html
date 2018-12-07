@@ -1,0 +1,93 @@
+<!--<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <title></title>
+</head>
+<body>
+    <div>-->
+        <header>
+            <div class="head">
+                <div class="float_left"><a href="#"><img src="img/header/logo.png" class="img_1"></a></div>
+                <!--头部 左-->
+                <div>
+                    <ul>
+                        <li class=float_left>
+                            <a href="index.html" target="_blank">首页</a>
+                        </li>
+                        <li class=float_left>
+                            <a href="list.html">全部产品</a>
+                        </li>
+                        <li class=float_left>
+                            <a href="#">蛋糕</a>
+                        </li>
+                        <li class=float_left>
+                            <a href="#">冰激凌</a>
+                        </li>
+                        <li class=float_left>
+                            <a href="#">精选食材</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--头部 右-->
+                <div class="right">
+                    <ul class="my_ul">
+                        <li class=float_right>
+                            <a href="shopping_cart.html" target="_blank"><img src="img/header/gouwuche.png" class="img_2"></a>
+                        </li>
+                        <li class=float_right>
+                            <div id="app">
+                                <a href="#" class="header-app">app下载</a>
+                                <dl class="app_list header-select" id="app_list">
+                                    <dt>
+                                    <img src="img/list/label/app.png">
+                                    </dt>
+                                    <dd>下载享更多优惠</dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li class=float_right>
+                            <div id="xz">
+                                <div class="current-city" id="current-city"><a href="#" class="dz">北京</a></div>
+                                <div class="xs">
+                                    <ul class="current-city-list  header-select" id="current-city">
+                                        <li><a href="#">上海</a></li>
+                                        <li><a href="#">天津</a></li>
+                                        <li><a href="#">杭州</a></li>
+                                        <li><a href="#">无锡</a></li>
+                                        <li><a href="#">苏州</a></li>
+                                        <li><a href="#">广州</a></li>
+                                        <li><a href="#">深圳</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class=float_right>
+                            <span><a href="login.html" target="_blank">登录</a>/<a href="register.html" target="_blank">注册</a></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <script>
+                $("#app").hover(function(){
+                    $('#app_list').show().find('dl').animate({top:0}, 200);
+                },function(){
+                    $('#app_list').hide().find('dl').css('top','100%');
+                });
+                $("#xz").hover(function(){
+                    $('.xs').show().find('ul').animate({top:0}, 200);
+                },function(){
+                    $('.xs').hide().find('ul').css('top','100%');
+                });
+                $(document).ready(function(){
+                    $('div[id*="xunlei_com"]').remove();
+                    $('#jcps').remove();
+                });  
+            </script>
+        </header>
+    <!--</div>
+</body>
+</html>-->

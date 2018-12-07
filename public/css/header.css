@@ -1,0 +1,84 @@
+header{
+    background:#fff;
+}
+header a,header ul li,header span{
+    color: #684029;
+    font-size:17px;
+}
+header div.float_left{
+    margin-left:90px;
+}
+header>div>div>a>img.img_1{
+    height:44px;
+    width:120px;
+}
+header>div>div>ul>li>a>img.img_2{
+    height:25px;
+    width:25px;
+}
+header div>ul>li{
+    padding:10px 0 0;
+}
+header div>ul.my_ul{
+    margin-right:90px;
+}
+
+header .float_left{
+    float:left;
+    margin:20px;
+}
+
+header .float_right{
+    float:right;
+    margin:20px;
+}
+
+header>div>div.right>ul>li>div>dl{
+    width: 100px;
+    right: 140px;
+    top:56px;
+    font-size: 12px;
+    position: absolute;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #EDEDED;
+    box-shadow: 0px 2px 4px 0px #ededed;
+    z-index: 100000;
+    padding: 12px 10px;
+    height: 115px;
+    display: none;
+}
+header>div>div.right>ul>li>div>dl>dt,
+header>div>div.right>ul>li>div>dl>dd{
+    float: left;
+    text-align: center;
+    width: 100px;
+}
+header>div>div.right>ul>li>div>dl>dt>img{
+    height: 100px;
+    width: 100px;
+}
+header>div>div.right>ul>li.float_right>div>div.xs{
+    right: 240px;
+    width: 110px;
+    position: absolute;
+    top: 54px;
+    text-align: center;
+    padding: 12px 0;
+    background: #fff;
+    border: 1px solid #EDEDED;
+    box-shadow: 0px 2px 4px 0px #ededed;
+    display: none;
+    z-index: 100000;
+}
+header a:hover{
+    color: #D5BFA7;
+    line-height: 18px;
+    margin: 6px 0;
+}
+header a:visited,header a:link{
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}

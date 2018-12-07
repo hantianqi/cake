@@ -1,0 +1,73 @@
+footer>div{
+    background:#333;
+    width:100%;
+}
+footer div div{
+    display:flex;
+    justify-content:center;
+}
+footer .my_img{
+    padding:20px 0;
+}
+footer .footer_img1{
+    height:36px;
+    width:96px;
+    margin:20px 30px;
+}
+/*footer .footer_img2{
+    height:30px;
+    width:30px;
+    margin:20px 30px;
+}*/
+footer a,footer span{
+    margin-right:20px;
+    color:#fff;
+}
+footer hr{
+    color:#9A9A9A;
+}
+footer span{
+    color:#9A9A9A;
+    margin-bottom:20px;
+}
+footer .ewm a{
+    display: inline-block;
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    background: #494949;
+    margin: 0 50px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+footer .footer-erweima {
+    position: relative;
+    bottom:170px;
+    display: block;
+    height: 120px;
+    width: 120px;
+    overflow: hidden;
+    margin-right:40px;
+    display: none;
+}
+footer .footer-weixin-erweima {
+    margin-left: -40px;
+}
+footer .footer-app .footer-app-erweima{
+    right:30px;
+}
+footer .footer-erweima img {
+    height: 100px;
+    width: 100px;
+    border: 10px solid #fff;
+}
+footer .footer-weixin-erweima{
+    bottom:190px;
+}
+footer div a>img {
+    height: 30px;
+    margin: 10px;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/register.css"/>
+    <title>21k蛋糕  注册</title>
+    <script src="js/xhr.js"></script>
+</head>
+<body>
+    <!--头部-->
+    <header id="header">
+        <!--<iframe src="header.html" frameborder="0" class="header"></iframe>-->
+    </header>
+    <!--主体-->
+    <section>
+        <div class="div_border">
+            <!--注册框-->
+            <table>
+                <tr>
+                    <td colspan="2" class="td_font">用户注册</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" placeholder="请输入手机号码" class="td_width" name="phone" id="phone"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="password" name="password" id="password" placeholder="密码：请输入8~2字符，需同时包含英文和数字" class="td_width"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="请输入图片字符" class="td_margin td_width"/>
+                    </td>
+                    <td>
+                        <canvas width="120" height="30" id="c3"></canvas>
+                        <img src="img/index/sx.png"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" name="email" id="email" placeholder="请输入邮箱" class="td_width"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text" name="username" id="username" placeholder="请输入用户名" class="td_width"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text" name="account" id="account" placeholder="请输入账号" class="td_width"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input class="but login" type="submit" value="注册" disabled>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox"/>
+                        <span>已阅读并同意<a href="#">21客会员协议</a>和<a href="#">隐私保护政策</a></span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="fixe">
+            注册成功，前往登录！
+        </div>
+    </section>
+    <!--尾部-->
+    <footer id="footer">
+        <!--<iframe src="footer.html" frameborder="0" class="footer"></iframe>-->
+    </footer>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+	<script src="js/register.js"></script>
+    <script>
+        var c3=document.getElementById("c3");
+        var ctx=c3.getContext("2d");
+        ctx.fillStyle=rc(180,233);
+        ctx.fillRect(0,0,120,30);
+        var pool="qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM1234567890";
+        for(var i=0;i<4;i++){
+            var c=pool[rn(0,pool.length)];
+            ctx.textBaseline="top";
+            ctx.fillStyle=rc(30,180);
+            ctx.font="23px SimHei";
+            ctx.fillText(c,i*25+5,5);
+        }
+        for(var i=0;i<5;i++){
+            ctx.beginPath();
+            ctx.strokeStyle=rc(0,255);
+            ctx.moveTo(rn(0,120),rn(0,30));
+            ctx.lineTo(rn(0,120),rn(0,30));
+            ctx.stroke();
+        }
+        for(var i=0;i<20;i++){
+            ctx.fillStyle=rc(0,255);
+            ctx.beginPath();
+            ctx.arc(rn(0,120),rn(0,30),1,0,360*Math.PI/180);
+            ctx.fill();
+        }
+
+        function rn(min,max){ 
+            var n = Math.random()*(max-min)+min
+            return Math.floor(n)
+        }
+        function rc(min,max){
+            var r = rn(min,max);
+            var g = rn(min,max);
+            var b = rn(min,max);
+            return `rgb(${r},${g},${b})`;
+        }
+    </script>
+</body>
+</html>

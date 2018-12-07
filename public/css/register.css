@@ -1,0 +1,44 @@
+section{
+    height:714px;
+    background:url(../img/index/login_register.jpg) no-repeat top center;
+}
+.footer,.header{
+    margin:0;
+}
+div{
+    display: block;
+}
+div.div_border{
+    position: absolute;
+    width: 302px;
+    top: 114px;
+    right: 0;
+    padding: 28px 42px;
+    border: 1px #E9E9E9 solid;
+    background: #fff;
+    margin:100px;
+    text-align: center;
+}
+section div table tr td.td_font{
+    font-size:20px;
+}
+section div table tr td input.td_width,button.but{
+    width:100%;
+    height:36px;
+}
+section div table tr td input.td_margin{
+    width:130px;
+}
+section div table tr td span{
+    font-size:13px;
+}
+section div table tr td span>a{
+    color:#2A99FA;
+}
+section div table tr td input.but{
+    border:0;
+    width:100%;
+    background:#442818;
+    color:#fff;
+    padding:5px;
+}

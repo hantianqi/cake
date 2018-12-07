@@ -1,0 +1,59 @@
+<!--<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <title></title>
+</head>
+<body>-->
+<footer>
+    <div>
+        <div class="my_img">
+            <img src="img/footer/footer-logo.png" class="footer_img1"/>
+        </div>
+        <div class="a1">
+                <a href="#">联系我们</a><span>|</span>
+                <a href="#">订购帮助</a><span>|</span>
+                <a href="#">企业合作</a><span>|</span>
+                <a href="#">生产经营资质</a><span>|</span>
+                <a href="#">公告专区</a>
+        </div>
+        <div class="ewm">
+            <a href="#"  class="footer-weixin"><img src="img/footer/footericon-01.png"/></a>
+            <a href="#" class="footer-weixin">
+                <img src="img/footer/footericon-02.png"/>
+                <div class="footer-erweima footer-weixin-erweima">
+                    <img src="img/list/label/erweima.png">
+                </div>
+            </a>
+            <a href="#"  class="footer-app">
+                APP
+                <div class="footer-erweima footer-app-erweima">
+                    <img src="img/list/label/app.png">
+                </div>
+            </a>
+        </div>
+        <hr/>
+        <div><span class="s1">Copyright© 21Cake蛋糕官网商城 2007-2018, 版权所有 京ICP备14006254号-1</span></div>
+        <script>
+            $(".footer-weixin").hover(function(){
+                $('.footer-weixin-erweima').show().find('img').animate({top:0}, 200);
+            },function(){
+                $('.footer-weixin-erweima').hide().find('img').css('top','100%');
+            });
+            $(".footer-app").hover(function(){
+                $('.footer-app-erweima').show().find('img').animate({top:0}, 200);
+            },function(){
+                $('.footer-app-erweima').hide().find('img').css('top','100%');
+            })
+            $(document).ready(function(){
+                $('div[id*="xunlei_com"]').remove();
+                $('#jcps').remove();
+            });   
+        </script>
+    </div>
+</footer>
+<!--</body>
+</html>-->

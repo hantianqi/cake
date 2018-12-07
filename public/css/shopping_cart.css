@@ -1,0 +1,55 @@
+section,section~div,
+section div>ul{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+section>div>img,
+section>div>span,
+section>div>a{
+    display: block;
+}
+section>div{
+    width:100%;
+    height: 300px;
+    margin-top:150px;
+ }
+section>div>img{
+    height: 116px;
+    width: 204px;
+    margin: 0 auto;
+}
+section>div>span{
+    text-align: center;
+    font-size: 14px;
+    color: #D5BFA7;
+    margin-top: 8px;
+}
+section>div>a{
+    width: 80px;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-top: 20px;
+}
+section>div+div{
+    margin: 48px 0;
+    width: 1200px;
+    flex-wrap: wrap;
+}
+section>div+div>h2{
+    font-weight: normal;
+    font-size: 18px;
+    color: #684029;
+    line-height: 50px;
+    border-bottom: 2px solid #CECAC7;
+}
+section div>ul{
+    margin-bottom:20px;
+}
+section div>ul>li{
+    padding-left:40px;
+}
+section div>ul>li>a>img{
+    height: 252px;
+    width: 252px;
+}
